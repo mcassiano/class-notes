@@ -24,9 +24,19 @@ int main (int argc, char** argv) {
 
 	while (fscanf(stdin, "%d %d", &i, &j) != EOF) {
 		int currentMax = -1;
-		int m;
-		for (m = i; m <= j; m++) {
-			int nCycles = calcNumberOfCycles(m);
+		int min, max;
+
+		if (i > j) {
+			min = j;
+			max = i;		
+		}
+		else {
+			min = i;
+			max = j;
+		}
+
+		for (min; min <= max; min++) {
+			int nCycles = calcNumberOfCycles(min);
 			if (nCycles > currentMax)
 				currentMax = nCycles;
 		}
