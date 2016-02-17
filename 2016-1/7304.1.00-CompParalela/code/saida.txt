@@ -1,0 +1,11 @@
+Sequêncial	Reduction	Critical
+2.995		2.974		2.971
+
+
+Chunk size/Pol	Static	Dynamic	Guided
+1		0.823	0.813	0.838
+100		0.814	0.802	0.84
+10000		0.807	0.806	0.838
+1000000		1.374	1.391	1.449
+
+* Tempo em segundos
