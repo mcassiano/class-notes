@@ -1,0 +1,6 @@
+[submodule "2016-1/4346.1.00-RI/AS01/article"]
+	path = 2016-1/4346.1.00-RI/AS01/article
+	url = https://git.overleaf.com/4537447jzhxxr
+[submodule "2016-1/4346.1.00-RI/AS01/code"]
+	path = 2016-1/4346.1.00-RI/AS01/code
+	url = https://github.com/mcassiano/distributed-webcrawler
